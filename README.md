@@ -60,6 +60,7 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 ``` 
 ### The user has the possibility to modify his personal information: name, first name, passeword and e-mail.
 ```
+### Check drivers
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
 * Aude PONS
