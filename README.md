@@ -1,11 +1,8 @@
 ![alt tag](https://zupimages.net/up/19/43/6e3n.png)
 ## The project
 RoadLife is a project developed by MASTERE first-year students as part of the Ydays. We chose to create a web application capable of geolocating the trucks of a delivery company.
+![alt-tag](https://zupimages.net/up/19/43/7b7v.jpg)
 
-
-
-
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228041507497136.png)
 ## Frameworks
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
