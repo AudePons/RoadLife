@@ -56,7 +56,7 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
    - Enable or disable accounts.
 ```
 ### Edit user account
-![alt-tag]()
+![alt-tag](https://zupimages.net/up/19/43/qp7y.png)
 ``` 
 ### The user has the possibility to modify his personal information: name, first name, passeword and e-mail.
 ```
