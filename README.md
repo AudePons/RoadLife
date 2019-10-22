@@ -42,6 +42,13 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
    - Log in, and will be careful of his username and password.
    - Register and will need to determine his name, surname, nickname, e-mail and password.
 ```
+### Manage database
+![alt-tag](https://zupimages.net/up/19/43/gl6y.png)
+``` 
+### If the user is an administrator, he will have the opportunity to:
+   - Add a new driver
+   - Add a new production site
+```
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
 * Aude PONS
