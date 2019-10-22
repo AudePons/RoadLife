@@ -27,13 +27,13 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 * [Dowload](https://fontawesome.com/icons/download?style=solid)
 ## Project architecture
 * **dist :** Contains all design elements, database processing or mapping.
-* **config.php :**
-* **doc.php :** 
-* **gestion_sub.php :**
-* **index.php :**
-* **logout.php :**
-* **profil.php :**
-* **subscribe.php :**
+* **config.php :** Page to manage the database of the application.
+* **doc.php :** User Documentation Page.
+* **gestion_sub.php :** User Account Rights Management File.
+* **index.php :** Application Home Page.
+* **logout.php :** Page to destroy user sessions.
+* **profil.php :** Page to edit the profile.
+* **subscribe.php :** Page to register on the site.
 ## Module descriptions
 ### Sign in & Sign up
 ![alt-tag](https://zupimages.net/up/19/43/cvww.png)
