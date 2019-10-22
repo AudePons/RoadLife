@@ -27,22 +27,16 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 * [Dowload](https://fontawesome.com/icons/download?style=solid)
 ## Project architecture
 * **dist :** Contains all design elements, database processing or mapping.
-
-
-## Project Architecture
-* dist : Contains all the images and CSS files.
-* add_photo.html : Allows the addition of an image on the site.
-* all_categories.html : Gallery of images representing all the themes recorded on the site.
-* connexion.html : Allows you to connect with a basic account, with a Facebook, Google or Instgram account. Allows to register.
-* detail_photo.html : Allows to know more about the image (author, title, description, comments, category, tags, other interesting images).
-* index.html : Central page of the site. It contains a carousel, a search bar and a suggestion of images.
-* profil.html : This file contains all the statistical and qualitative elements related to the user.
-* search_result.html : File containing the results of the user's search.
-## Graphical charter
-
-### FontAwesome Icons
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228094046938289.png)
+* **config.php :**
+* **doc.php :** 
+* **gestion_sub.php :**
+* **index.php :**
+* **logout.php :**
+* **profil.php :**
+* **subscribe.php :**
 ## Module descriptions
+### Sign in & Sign up
+
 ### Advertising space
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228094812561945.png)
 ``` 
