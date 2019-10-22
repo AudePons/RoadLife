@@ -62,6 +62,13 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 ```
 ### Check drivers
 ![alt-tag](https://www.zupimages.net/up/19/43/gvmc.png)
+``` 
+### The user has the possibility to control certain aspects related to the delivery trucks. He will be able to:
+   - View the current position of a driver.
+   - Visualize thanks to the clusters all the movements of the drivers.
+   - View the production sites.
+   - Exporter an XML file.
+```
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
 * Aude PONS
