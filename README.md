@@ -8,8 +8,19 @@ RoadLife is a project developed by MASTERE first-year students as part of the Yd
 * [Leaflet](https://leafletjs.com/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [WampServer](http://www.wampserver.com/)
-## Photo resources
-All
+## Graphical Charter
+### The logo
+The logo has been designed by Aude PONS. The choson writing font is [Monthoers Font](https://befonts.com/monthoers-font.html).
+### Color pallet
+* ![#343a40](https://placehold.it/15/343a40/000000?text=+) `#343a40`
+* ![#0c5460](https://placehold.it/15/0c5460/000000?text=+) `#0c5460`
+* ![#d1ecf1](https://placehold.it/15/d1ecf1/000000?text=+) `#d1ecf1`
+* ![#721c24](https://placehold.it/15/721c24/000000?text=+) `#721c24`
+* ![#f8d7da](https://placehold.it/15/f8d7da/000000?text=+) `#f8d7da`
+### Fontawesome Icons
+* [User Profile](https://fontawesome.com/icons/user-cog?style=solid)
+* [Logout](https://fontawesome.com/icons/sign-out-alt?style=solid)
+* [Driver](https://fontawesome.com/icons/user?style=solid)
 
 ## Photo Resources
 All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users : [12019](https://pixabay.com/fr/users/12019-12019/), [AlexanderStein](https://pixabay.com/fr/users/alexanderstein-45237/), [alvaroas8a0](https://pixabay.com/fr/users/alvaroas8a0-593995/), [arunpnr](https://pixabay.com/fr/users/arunpnr-540691/), [bere69](https://pixabay.com/fr/users/bere69-3506936/), [cc-content](https://pixabay.com/fr/users/cc-content-80172/), [chengtzf](https://pixabay.com/fr/users/chengtzf-5538686/), [congerdesign](https://pixabay.com/fr/users/congerdesign-509903/), [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/), [gorkhe1980](https://pixabay.com/fr/users/gorkhe1980-2469728/), [jossuetrejo_oficial](https://pixabay.com/fr/users/jossuetrejo_oficial-8361939/), [kolibri5](https://pixabay.com/fr/users/kolibri5-240538/), [Larisa-K](https://pixabay.com/fr/users/larisa-k-1107275/), [Mondschwinge](https://pixabay.com/fr/users/mondschwinge-1453918/), [nickharder](https://pixabay.com/fr/users/nickharder-324768/), [nile](https://pixabay.com/fr/users/nile-598962/), [Pexels](https://pixabay.com/fr/users/pexels-2286921/), [Ruwadium](https://pixabay.com/fr/users/ruwadium-1674203/), [slightly_different](https://pixabay.com/fr/users/slightly_different-2006397/), [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) , [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/), [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/).
@@ -23,10 +34,7 @@ All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the fol
 * profil.html : This file contains all the statistical and qualitative elements related to the user.
 * search_result.html : File containing the results of the user's search.
 ## Graphical charter
-### The logo 
-The logo has been designed by [Nelly LASSEGUE](https://www.facebook.com/LassegueNelly/). The chosen writing font is [norrwester](https://www.fontsquirrel.com/fonts/norwester).
-### Color pallet
-![alt-tag](https://nsa40.casimages.com/img/2019/02/27/19022707311759977.png)
+
 ### FontAwesome Icons
 ![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228094046938289.png)
 ## Module descriptions
