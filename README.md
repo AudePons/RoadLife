@@ -36,91 +36,12 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 * **subscribe.php :**
 ## Module descriptions
 ### Sign in & Sign up
-
-### Advertising space
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228094812561945.png)
+![alt-tag](https://zupimages.net/up/19/43/cvww.png)
 ``` 
-### The "results" area has two advertising spaces :
-  - The most loved photos.
-  - The most downloaded photos
-```
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228102341289501.png)
-``` 
-### When displaying the results of a search there are two billboards :
-  - The other photos of the user
-  - Similar images
-```
-### Comments
-``` 
-### A user has the opportunity to comment on a photo.
-```
-### Gallery
-Depending on the pages, the gallery is modified. Indeed, the possible actions on an image will not be the same.
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228110301992548.png)
-``` 
-### On the page "index" and on the page "resulat", we have : 
-  - The name of the photographer at the origin of the image.
-  - The number of likes.
-  - The number of downloads.
-```
-![aly-tag](https://nsa40.casimages.com/img/2019/02/28/190228021511252607.png)
-``` 
-### On the page "categories", we have : 
-  - The possibility to subscribe to a category.
-```
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228021752511348.png)
-``` 
-### On the page "profile", we have : 
-  - The possibility to share the picture.
-  - Update the picture.
-  - Delete the picture.
-```
-### Log in - Sign in
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103140378953.png)
-``` 
-### On the login page it is possible to :
-  - Log in with a jungle account.
-  - Create a jungle account.
-  - Connect with Facebook, Google or Instagram.
-```
-### NavBar
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228103827912819.png)
-``` 
-### The navigation bar is divided into three parts :
-  - The corporate name.
-  - The search bar.
-  - Information related to the connected user :
-      * The history (consultations and research).
-      * Subscription notifications.
-      * Notifications related to messages.
-      * The profile of the user (avatar and nickname), with a submenu :
-          ** Profile
-          ** Add a picture
-          ** Log out
-```
-### Update profile
-![alt-tag](https://nsa40.casimages.com/img/2019/03/01/190301040704469140.png)
-``` 
-### A logged in user has the possibility to modify his personal data :
-  - Avatar.
-  - Cover page.
-  - Social networks (facebook, instagram, twitter).
-  - Website.
-  - About.
-```
-### User profile
-![alt-tag](https://nsa40.casimages.com/img/2019/02/28/190228105229269142.png)
-``` 
-### The header of the profile page is divided into five main parts :
-  - Parameters
-  - User informations (country, date of registration, number of subscribers, website).
-  - Statistics (number of photos uploaded, number of likes total, total number of downloads).
-  - Social networks (facebook, instagram, twitter).
-  - The share buttons.
-  - The corporate name.
+### The user has the opportunity to:
+   - Log in, and will be careful of his username and password.
+   - Register and will need to determine his name, surname, nickname, e-mail and password.
 ```
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
-* Mohamed ALAMI
-* [Nelly LASSEGUE](https://github.com/Nelly95)
 * Aude PONS
