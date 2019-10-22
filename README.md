@@ -5,6 +5,7 @@ RoadLife is a project developed by MASTERE first-year students as part of the Yd
 ## Frameworks, Library & Tools
 * [Bootstrap](https://getbootstrap.com/)
 * [FontAwesome](https://fontawesome.com/)
+* [JQuery](https://jquery.com/)
 * [Leaflet](https://leafletjs.com/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [WampServer](http://www.wampserver.com/)
@@ -24,9 +25,10 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 * [Production sites](https://fontawesome.com/icons/building?style=solid)
 * [All displacement](https://fontawesome.com/icons/users?style=solid)
 * [Dowload](https://fontawesome.com/icons/download?style=solid)
+## Project architecture
+* **dist :** Contains all design elements, database processing or mapping.
 
-## Photo Resources
-All the pictures made on the site [Pixabay](https://pixabay.com/fr/) and the following users : [12019](https://pixabay.com/fr/users/12019-12019/), [AlexanderStein](https://pixabay.com/fr/users/alexanderstein-45237/), [alvaroas8a0](https://pixabay.com/fr/users/alvaroas8a0-593995/), [arunpnr](https://pixabay.com/fr/users/arunpnr-540691/), [bere69](https://pixabay.com/fr/users/bere69-3506936/), [cc-content](https://pixabay.com/fr/users/cc-content-80172/), [chengtzf](https://pixabay.com/fr/users/chengtzf-5538686/), [congerdesign](https://pixabay.com/fr/users/congerdesign-509903/), [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/), [gorkhe1980](https://pixabay.com/fr/users/gorkhe1980-2469728/), [jossuetrejo_oficial](https://pixabay.com/fr/users/jossuetrejo_oficial-8361939/), [kolibri5](https://pixabay.com/fr/users/kolibri5-240538/), [Larisa-K](https://pixabay.com/fr/users/larisa-k-1107275/), [Mondschwinge](https://pixabay.com/fr/users/mondschwinge-1453918/), [nickharder](https://pixabay.com/fr/users/nickharder-324768/), [nile](https://pixabay.com/fr/users/nile-598962/), [Pexels](https://pixabay.com/fr/users/pexels-2286921/), [Ruwadium](https://pixabay.com/fr/users/ruwadium-1674203/), [slightly_different](https://pixabay.com/fr/users/slightly_different-2006397/), [teadrinker](https://pixabay.com/fr/users/teadrinker-3776864/) , [terimakasih0](https://pixabay.com/fr/users/terimakasih0-624267/), [Yuri_B](https://pixabay.com/fr/users/yuri_b-2216431/).
+
 ## Project Architecture
 * dist : Contains all the images and CSS files.
 * add_photo.html : Allows the addition of an image on the site.
