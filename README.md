@@ -55,6 +55,11 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 ### If the user is an administrator, he will be able to manage the users of the application : 
    - Enable or disable accounts.
 ```
+### Edit user account
+![alt-tag](https://zupimages.net/up/19/43/qp7y.png)
+``` 
+### The user has the possibility to modify his personal information: name, first name, passeword and e-mail.
+```
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
 * Aude PONS
