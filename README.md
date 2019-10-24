@@ -61,13 +61,13 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 ### The user has the possibility to modify his personal information: name, first name, passeword and e-mail.
 ```
 ### Check drivers
-![alt-tag](https://www.zupimages.net/up/19/43/gvmc.png)
+![alt-tag](https://zupimages.net/up/19/43/uzhn.png)
 ``` 
 ### The user has the possibility to control certain aspects related to the delivery trucks. He will be able to:
    - View the current position of a driver.
    - Visualize thanks to the clusters all the movements of the drivers.
    - View the production sites.
-   - Exporter an XML file.
+   - Export an XML file.
 ```
 ## Authors
 * [Hakim MAKHTOUR](https://github.com/Hakimono)
