@@ -13,18 +13,15 @@ $sql_chauffeur = "SELECT cf_id, cf_pseudo_trimble, cf_nom, cf_prenom, cf_mail, s
 $rs_chauffeur = pg_query($idc, $sql_chauffeur);
 while($ligne_xml=pg_fetch_assoc($rs_chauffeur))
 {
-	$xml .= '<num_chauffeur>'.$ligne_xml['cf_id'].'</num_chauffeur>';
+	$xml .= '<num_driver>'.$ligne_xml['cf_id'].'</num_driver> \'n\'';
+	$xml .= '<pseudo_trimble>'.$ligne_xml['cf_pseudo_trimble'].'</pseudo_trimble>';
+	$xml .= '<nom_driver>'.$ligne_xml['cf_nom'].'</nom_driver> \'n\'';
+	$xml .= '<prenom_driver>'.$ligne_xml['cf_prenom'].'</prenom_driver>';
+	$xml .= '<mail_driver>'.$ligne_xml['cf_mail'].'</mail_driver>';
+	$xml .= '<tel_driver>'.$ligne_xml['cf_numtel'].'</tel_driver>';
+	$xml .= '<lat>'.$ligne_xml['cf_lat'].'</lat>';
+	$xml .= '<long>'.$ligne_xml['cf_long'].'</long>';
 }
-
-	$sql_wiki = "SELECT DISTINCT titre_wiki FROM wiki;";
-	$rs_wiki = pg_query($log, $sql_wiki);
-
-	while($selection = pg_fetch_assoc($rs_wiki))
-	{
-		$xml .= '<suggestion>';
-		$xml .= '<titre>'.$selection['titre_wiki'].'</titre>';
-		$xml .= '</suggestion>';
-	}
 
 $xml .= '</page>';
 
