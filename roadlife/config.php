@@ -139,8 +139,6 @@ include('dist/include/html/navigation.php');
     </div>
 </div>
 
-
-
 <?php
 
 include('dist/include/html/footer.php');
@@ -185,7 +183,7 @@ include('dist/include/html/script.php');
             e.preventDefault();
 
             let ville = $("#ville_site").val();
-            let lat = $("#long").val();
+            let lat = $("#lat").val();
             let long = $("#long").val();
 
             $.ajax({

@@ -54,6 +54,7 @@
                 
 				<button id="site_prod" class="btn btn-dark" ><i class="fas fa-building"></i></button>
 				<button id="chauffeurs" class="btn btn-dark" ><i class="fas fa-users"></i></button>
+				<button id="trajets" class="btn btn-dark">Y</button>
                 <a href="dist/action/xml/ficheXML.php" download="ficheXML.xml"><button id="Exporter la fiche" class="btn btn-dark"><i class="fas fa-download"></i></button> </a>
                 
                 <a href="javascript:history.go(0)" style="margin-left:50px;"><button id="Exporter la fiche" class="btn btn-danger"><i class="fas fa-eraser"></i></button></a>

@@ -122,7 +122,7 @@ include('dist/include/html/navigation.php');
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fas fa-user"></i></div>
                             </div>
-                            <select class="form-control" name="l_sp" id="l_sp" required>
+                            <select class="form-control" name="all_sp" id="all_sp" required>
                                 <?php
                                 $rs = pg_query($idc, "SELECT sp_libelle, sp_id FROM t_siteprod ORDER BY sp_libelle");
                                 echo "<option value=''>Sélectionner un site</option>";
@@ -148,7 +148,7 @@ include('dist/include/html/navigation.php');
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fas fa-thumbtack"></i></div>
                             </div>
-                            <input type="text" id="lat" pattern="^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}" name="latitude" class="form-control" placeholder="Latitude" required />
+                            <input type="text" id="lat" pattern="^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}" name="latitude"  class="form-control" placeholder="Latitude" required />
                         </div>
                     </div>
                     <div class="col-lg-12 css-rdl-padInput">
@@ -157,7 +157,7 @@ include('dist/include/html/navigation.php');
                             <div class="input-group-prepend">
                                 <div class="input-group-text"><i class="fas fa-thumbtack"></i></div>
                             </div>
-                            <input type="text" id="long" name="longitude" class="form-control" placeholder="Longitude" pattern="^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}" required />
+                            <input type="text" id="long" name="longitude" id="longitude" class="form-control" placeholder="Longitude" pattern="^-?([1-8]?[1-9]|[1-9]0)\.{1}\d{1,6}" required />
                         </div>
                     </div>
                 </div>
@@ -188,7 +188,6 @@ include('dist/include/html/script.php');
 
         $('#all_drivers').on('change', function(e) {
             e.preventDefault();
-
             let id_driver = $("#all_drivers").val();
 
             $.ajax({
@@ -198,10 +197,52 @@ include('dist/include/html/script.php');
                     id_driver: id_driver
                 },
                 success: function(result) {
-                    $("#nom");
+                    $.each(JSON.parse(result), function(i, item) {
+                        if (item.field == "nom") {
+                            $("#nom").val(item.value);
+                        } else if (item.field == "prenom") {
+                            $("#prenom").val(item.value);
+                        } else if (item.field == "tel") {
+                            $("#tel").val(item.value);
+                        } else if (item.field == "mail") {
+                            $("#mail").val(item.value);
+                        } else if (item.field == "trimble") {
+                            $("#trimble").val(item.value);
+                        } else if (item.field == "l_sp") {
+                            $("#l_sp").val(item.value);
+                        }
+                    });
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    $("").html();
+                    alert('error');
+                }
+            });
+        });
+
+        $('#all_sp').on('change', function(e) {
+            e.preventDefault();
+            let id_sp = $("#all_sp").val();
+
+            $.ajax({
+                type: "GET",
+                url: "load_data_sp.php",
+                data: {
+                    id_sp: id_sp
+                },
+                success: function(result) {
+                    $.each(JSON.parse(result), function(i, item) {
+                        if (item.field == "ville_site") {
+                            $("#ville_site").val(item.value);
+                        } else if (item.field == "latitude") {
+                            $("#lat").val(item.value);
+                        } else if (item.field == "longitude") {
+                            $("#long").val(item.value);
+                        }
+                    });
+                    // console.log(result);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert('error');
                 }
             });
         });
@@ -230,7 +271,7 @@ include('dist/include/html/script.php');
                     sp_id: l_sp
                 },
                 success: function(result) {
-                    $("#driverResult").html('Le chauffeur' + nom + ' ' +prenom + ' a bien été crée.');
+                    $("#driverResult").html('Le chauffeur' + nom + ' ' + prenom + ' a bien été crée.');
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
                     $("#driverResult").html('Une erreur est survenue. Veuillez réessayer.');

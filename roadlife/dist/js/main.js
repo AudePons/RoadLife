@@ -26,6 +26,22 @@ $(document).ready(function () {
     });
   });
 
+  $("#trajets").click(function () {
+    $.ajax({
+      url: 'dist/action/geojson/getPath.php',
+      success: function (response) {
+        JsonContent = JSON.parse(response);
+        console.log(JsonContent);
+        L.geoJSON(JsonContent, {
+          pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, { icon: SpIcon });
+          },
+          onEachFeature: onEachFeature,
+        }).addTo(mymap);
+      }
+    })
+  })
+
   $("#site_prod").click(function () {
 
     var SpIcon = L.icon({
