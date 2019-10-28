@@ -84,7 +84,8 @@ include('dist/include/html/navigation.php');
                 <div id="driverResult"></div>
                 <br />
                 <div class="text-center">
-                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br />
+                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br /><br/>
+                    <a href="config_update.php"><small>Pour modifier un chauffeur, cliquez ICI.</small></a>
                 </div>
             </form>
         </div>
@@ -128,7 +129,8 @@ include('dist/include/html/navigation.php');
                 <div id="siteResult"></div>
                 <br>
                 <div class="text-center">
-                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br />
+                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br /><br/>
+                    <a href="config_update.php"><small>Pour modifier un site de production, cliquez ICI.</small></a>
                 </div>
             </form>
         </div>
