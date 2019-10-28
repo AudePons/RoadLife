@@ -19,12 +19,30 @@ The logo has been designed by Aude PONS. The choson writing font is [Monthoers F
 * ![#721c24](https://placehold.it/15/721c24/000000?text=+) `#721c24`
 * ![#f8d7da](https://placehold.it/15/f8d7da/000000?text=+) `#f8d7da`
 ### Fontawesome Icons
-* [User Profile](https://fontawesome.com/icons/user-cog?style=solid)
-* [Logout](https://fontawesome.com/icons/sign-out-alt?style=solid)
-* [Driver](https://fontawesome.com/icons/user?style=solid)
-* [Production sites](https://fontawesome.com/icons/building?style=solid)
-* [All displacement](https://fontawesome.com/icons/users?style=solid)
-* [Dowload](https://fontawesome.com/icons/download?style=solid)
+* [Building](https://fontawesome.com/icons/building?style=solid)
+* [Check circle](https://fontawesome.com/icons/check-circle?style=solid)
+* [City](https://fontawesome.com/icons/city?style=solid)
+* [Database](https://fontawesome.com/icons/database?style=solid)
+* [Download](https://fontawesome.com/icons/download?style=solid)
+* [Eraser](https://fontawesome.com/icons/eraser?style=solid)
+* [Envelope](https://fontawesome.com/icons/envelope?style=solid)
+* [Facebook](https://fontawesome.com/icons/facebook-square?style=brands)
+* [Github](https://fontawesome.com/icons/github-square?style=brands)
+* [Pen alt](https://fontawesome.com/icons/pen-alt?style=solid)
+* [Phone](https://fontawesome.com/icons/phone?style=solid)
+* [Plus circle](https://fontawesome.com/icons/plus-circle?style=solid)
+* [Question circle](https://fontawesome.com/icons/question-circle?style=solid)
+* [Sign out](https://fontawesome.com/icons/sign-out-alt?style=solid)
+* [Thumbtack](https://fontawesome.com/icons/thumbtack?style=solid)
+* [Times circle](https://fontawesome.com/icons/times-circle?style=solid)
+* [Trick moving](https://fontawesome.com/icons/truck-moving?style=solid)
+* [Twitter](https://fontawesome.com/icons/twitter-square?style=brands)
+* [User](https://fontawesome.com/icons/user?style=solid)
+* [Users](https://fontawesome.com/icons/users?style=solid)
+* [User check](https://fontawesome.com/icons/user-check?style=solid)
+* [User cog](https://fontawesome.com/icons/user-cog?style=solid)
+* [Warehouse](https://fontawesome.com/icons/warehouse?style=solid)
+* [Wpforms](https://fontawesome.com/icons/wpforms?style=brands)
 ## Project architecture
 * **dist :** Contains all design elements, database processing or mapping.
 * **config.php :** Page to manage the database of the application.
