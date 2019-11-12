@@ -15,7 +15,7 @@ include('dist/include/html/navigation.php');
             <h3 class="text-center"><i class="fas fa-pen-alt"></i> Modifier un chauffeur</h3>
             <hr class="style14"> <br />
             <div class="css-rdl-alert"></div>
-            <form method="post" id="newDriverForm" name="newDriverForm">
+            <form method="post" id="UpdateDriverForm" name="UpdateDriverForm">
                 <div class="row">
                     <div class="col-lg-12 css-rdl-padInput">
                         <label class="sr-only" for="inlineFormInputGroup">Tous les chauffeurs</label>
@@ -104,7 +104,7 @@ include('dist/include/html/navigation.php');
                 <div id="driverResult"></div>
                 <br />
                 <div class="text-center">
-                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br />
+                    <input type="submit" name="submit_button" value="Mettre à jour" class="btn btn-info formbutton" id="submit_button" /><br />
                 </div>
             </form>
         </div>
@@ -114,7 +114,7 @@ include('dist/include/html/navigation.php');
             <h3 class="text-center"><i class="fas fa-pen-alt"></i> Modifier un site de production</h3>
             <hr class="style14"> <br />
             <div class="css-rdl-alert"></div>
-            <form method="post" id="newSiteForm" name="newSiteForm">
+            <form method="post" id="UpdateSiteForm" name="UpdateSiteForm">
                 <div class="row">
                     <div class="col-lg-12 css-rdl-padInput">
                         <label class="sr-only" for="inlineFormInputGroup">Tous les sites de production</label>
@@ -165,7 +165,7 @@ include('dist/include/html/navigation.php');
                 <div id="siteResult"></div>
                 <br>
                 <div class="text-center">
-                    <input type="submit" name="submit_button" value="Ajouter" class="btn btn-info formbutton" id="submit_button" /><br />
+                    <input type="submit" name="submit_button" value="Mettre à jour" class="btn btn-info formbutton" id="submit_button" /><br />
                 </div>
             </form>
         </div>
@@ -248,7 +248,7 @@ include('dist/include/html/script.php');
         });
 
 
-        $('#newDriverForm').on('submit', function(e) {
+        $('#UpdateDriverForm').on('submit', function(e) {
             e.preventDefault();
 
             let nom = $("#nom").val();
@@ -257,21 +257,22 @@ include('dist/include/html/script.php');
             let mail = $("#mail").val();
             let trimble = $("#trimble").val();
             let l_sp = $("#l_sp").val();
-
-            alert(l_sp);
+            let id_driver = $("#all_drivers").val();
             $.ajax({
                 type: "GET",
-                url: "insert_new_driver.php",
+                url: "update_driver.php",
                 data: {
                     nom: nom,
                     prenom: prenom,
                     tel: tel,
                     mail: mail,
                     trimble: trimble,
-                    sp_id: l_sp
+                    sp_id: l_sp,
+                    id_driver: id_driver
                 },
                 success: function(result) {
-                    $("#driverResult").html('Le chauffeur' + nom + ' ' + prenom + ' a bien été crée.');
+                    $("#driverResult").html('Les informations du chauffeur ' + nom + ' ' + prenom + ' ont bien été mises à jour.');
+                    // $("#driverResult").html(result);
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
                     $("#driverResult").html('Une erreur est survenue. Veuillez réessayer.');
@@ -279,23 +280,26 @@ include('dist/include/html/script.php');
             });
         });
 
-        $('#newSiteForm').on('submit', function(e) {
+        $('#UpdateSiteForm').on('submit', function(e) {
             e.preventDefault();
 
             let ville = $("#ville_site").val();
-            let lat = $("#long").val();
+            let lat = $("#lat").val();
             let long = $("#long").val();
+            let id_sp = $("#all_sp").val();
 
             $.ajax({
                 type: "GET",
-                url: "insert_new_site.php",
+                url: "update_site.php",
                 data: {
                     ville: ville,
                     lat: lat,
                     long: long,
+                    id_sp: id_sp,
                 },
                 success: function(result) {
-                    $("#siteResult").html('Le site de production dans la ville de : ' + ville + ' a bien été crée');
+                    $("#siteResult").html('Le site de production dans la ville de ' + ville + ' a bien été mis à jour');
+                    // $("#siteResult").html(result);
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
                     $("#siteResult").html('Une erreur est survenue. Veuillez réessayer.');

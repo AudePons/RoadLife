@@ -158,7 +158,6 @@ include('dist/include/html/script.php');
             let trimble = $("#trimble").val();
             let l_sp = $("#l_sp").val();
 
-            alert(l_sp);
             $.ajax({
                 type: "GET",
                 url: "insert_new_driver.php",
@@ -171,7 +170,8 @@ include('dist/include/html/script.php');
                     sp_id: l_sp
                 },
                 success: function(result) {
-                    $("#driverResult").html('Le chauffeur' + nom + ' ' +prenom + ' a bien été crée.');
+                    $("#driverResult").html('Le chauffeur ' + nom + ' ' +prenom + ' a bien été crée.');
+                    // $("#driverResult").html(result);
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
                     $("#driverResult").html('Une erreur est survenue. Veuillez réessayer.');
@@ -196,6 +196,7 @@ include('dist/include/html/script.php');
                 },
                 success: function(result) {
                     $("#siteResult").html('Le site de production dans la ville de : ' + ville + ' a bien été crée');
+                    $("#siteResult").html(result);
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
                     $("#siteResult").html('Une erreur est survenue. Veuillez réessayer.');
