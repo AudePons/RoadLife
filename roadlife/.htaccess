@@ -1,0 +1,3 @@
+Options -Indexes
+ErrorDocument 403 http://localhost/RoadLife/roadlife/
+ErrorDocument 404 http://localhost/RoadLife/roadlife/

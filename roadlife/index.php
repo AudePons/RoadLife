@@ -49,12 +49,12 @@
     
         echo('<div class="row" id="map">
             <div id="toolbar">
-                <button id="ees" class="btn btn-primary" onclick="masquer_div(\'form_interface\');"><i class="fab fa-wpforms"></i></button>
-                <button id="chauffeur_seul" class="btn btn-dark" style="margin-right:50px;"><i class="fas fa-user"></i></button>
-                
+                <button id="ees" class="btn btn-primary" style="margin-right:50px;" onclick="masquer_div(\'form_interface\');"><i class="fab fa-wpforms"></i></button>
+                <button id="chauffeur_seul" class="btn btn-dark"><i class="fas fa-user"></i></button>
+                <button id="trajets" class="btn btn-dark"><i class="fas fa-expand-arrows-alt"></i></button>
+
 				<button id="site_prod" class="btn btn-dark" ><i class="fas fa-building"></i></button>
 				<button id="chauffeurs" class="btn btn-dark" ><i class="fas fa-users"></i></button>
-				<button id="trajets" class="btn btn-dark">Y</button>
                 <a href="dist/action/xml/ficheXML.php" download="ficheXML.xml"><button id="Exporter la fiche" class="btn btn-dark"><i class="fas fa-download"></i></button> </a>
                 
                 <a href="javascript:history.go(0)" style="margin-left:50px;"><button id="Exporter la fiche" class="btn btn-danger"><i class="fas fa-eraser"></i></button></a>
